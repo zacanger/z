@@ -21,5 +21,5 @@ else
   _sed=$(which sed)
 fi
 
-"$_find" . -type f -name "$ext" -exec "$_sed" -i s/[﹂﹁「」“„»«]/'"'/g {} +
+"$_find" . -type f -name "$ext" -exec "$_sed" -i s/[﹂﹁「」“„»«『』]/'"'/g {} +
 "$_find" . -type f -name "$ext" -exec "$_sed" -i s/[‘’]/"'"/g {} +
