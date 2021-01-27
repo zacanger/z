@@ -258,6 +258,9 @@ nnoremap < <<
 " select most recently edited text
 nnoremap vp `[v`]
 
+" gq: format, ip: in paragraph. i do this a lot, so leader-q is nice.
+noremap <Leader>q gqip
+
 " split
 noremap <Leader>h :<C-u>split<CR>
 noremap <Leader>v :<C-u>vsplit<CR>
